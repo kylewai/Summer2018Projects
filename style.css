@@ -1,0 +1,106 @@
+.top-container{
+  white-space: nowrap;
+  margin-left: 15px;
+}
+
+.youtube-logo{
+  height:56px;
+  display: inline-block;
+}
+
+.search-bar{
+  display: inline-block !important;
+  width: 500px;
+  margin-left: 250px;
+  margin-right: 0px;
+}
+
+input.search-txt{
+  border-radius: 2px;
+}
+
+span.search-btn{
+  display: inline-block;
+}
+
+.home-body{
+  background-color: #F8F8F8;
+  padding: 20px 125px 0px 125px;
+}
+
+.adspace{
+  white-space: nowrap;
+}
+
+.bigad{
+  max-width: 700px;
+  margin-right: 10px;
+}
+
+.smallad{
+  max-height: 200px;
+  vertical-align: top;
+}
+
+.channel{
+  padding: 15px 0px 15px 0px;
+}
+
+.channel-logo{
+  height:40px;
+}
+
+.channel-name{
+  display:inline;
+  font-size: 15px;
+}
+
+.video-list{
+  padding: 0px 0px 20px 0px;
+  margin: 0px;
+  width: 100%;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.video-container{
+  margin: 0px;
+  max-width: 20%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.vid-thumbnail{
+  max-width: 100%;
+  margin: 0px 0px 5px 0px;
+}
+
+.video-title{
+  max-width: 80%;
+  margin-bottom: 5px;
+}
+
+.video-spec{
+  color: grey;
+}
+<div className = "home-body">
+  <table>
+    <tbody>
+      <tr style = {{height: '500px'}}>
+          <td>
+            <img className= "ad-thumbnail" src = {'ad.svg'} alt = "WorldCup!"></img>
+          </td>
+          <td>
+            <img className = "sad-thumbnail" src = {'ad.svg'} alt = "Ad here"></img>
+          </td>
+      </tr>
+      <tbody>
+      <tr>
+        <td>
+          <ChannelVids />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
