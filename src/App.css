@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.top-container{
+  white-space: nowrap;
+  margin-left: 15px;
+}
+
+.youtube-logo{
+  height:56px;
+  display: inline-block;
+}
+
+.search-bar{
+  white-space: nowrap;
+  width: auto;
+  margin-left: 200px;
+  margin-right: 0px;
+}
+
+.search-txt{
+  display:inline-block;
+  background: transparent;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  height: 34px;
+  padding-left: 10px;
+  width: 500px;
+}
+
+.search-txt:focus{
+  box-shadow: 2px 2px 2px blue;
+}
+
+.search-btn{
+  display: inline-block;
+  height: 38px;
+  border: 1px solid lightgrey;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #F8F8F8;
+}
+
+.home-body{
+  background-color: #F8F8F8;
+  padding: 20px 125px 0px 125px;
+}
+
+.ad-space{
+}
+
+.channel{
+  padding: 15px 0px 15px 0px;
+  vertical-align: top;
+}
+
+.channel-logo{
+  height:40px;
+}
+
+.channel-name{
+  display:inline-block;
+  font-size: 15px;
+  vertical-align: top;
+}
+
+.video-list{
+  padding: 0px 0px 20px 0px;
+  margin: 0px;
+  width: 100%;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.video-container{
+  margin: 0px;
+  max-width: 19%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.vid-thumbnail{
+  max-width: 100%;
+  margin: 0px 0px 5px 0px;
+}
+
+.ad-thumbnail{
+  max-width: 600px;
+  margin-right: 10px;
+}
+
+.sad-thumbnail{
+  max-height: 200px;
+  text-align: top;
+}
+
+.video-title{
+  max-width: 80%;
+  margin-bottom: 5px;
+}
+
+.video-spec{
+  color: grey;
+}
+
+tbody.what{
+  vertical-align: top !important;
+}
